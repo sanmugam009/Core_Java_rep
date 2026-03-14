@@ -1,0 +1,57 @@
+1.Platform-Independent
+    ->Java code runs on any OS(operating system) using JVM(java virtual machine).
+    ->"Write once, run anywhere", classic java moto.
+2.Object-Oriented Language(OOP)
+    ->Everything in java resolves around objects and classes.
+    ->Concepts:Encapsulation, Inheritances, Polymorphism, Abstraction.
+3.Compiled + Interpreted
+    ->java is compiled to bytecode (.class) using javac.
+    ->Then interpreted/executed by JVM.
+    ->gives both Speed (compiled) and portability(interpreted).
+4.File Extension
+    ->Source of file use .java
+    ->after compilation, you get .class files
+5.Data Types
+    ->Java data types are basically the kinds of containers 
+Java uses to store different kinds of values. Think of them 
+like labeled boxes: one box for numbers, one for characters, one for true/false, etc
+| Category                     | Description                                   |
+| ---------------------------- | --------------------------------------------- |
+| **Primitive Data Types**     | Basic built-in types that store simple values |
+| **Non-Primitive Data Types** | Reference types like Strings, Arrays, Classes |
+
+Java Data Types
+│
+├── Primitive
+│   ├── byte
+│   ├── short
+│   ├── int
+│   ├── long
+│   ├── float
+│   ├── double
+│   ├── char
+│   └── boolean
+│
+└── Non-Primitive
+    ├── String
+    ├── Array
+    ├── Class
+    └── Interface
+
+| Data Type    | Size (Bytes) | Size (Bits) | Example               |
+| ------------ | ------------ | ----------- | --------------------- |
+| **byte**     | 1 byte       | 8 bits      | `byte a = 10;`        |
+| **short**    | 2 bytes      | 16 bits     | `short b = 200;`      |
+| **int**      | 4 bytes      | 32 bits     | `int c = 5000;`       |
+| **long**     | 8 bytes      | 64 bits     | `long d = 100000L;`   |
+| **float**    | 4 bytes      | 32 bits     | `float e = 5.5f;`     |
+| **double**   | 8 bytes      | 64 bits     | `double f = 3.14159;` |
+| **char**     | 2 bytes      | 16 bits     | `char g = 'A';`       |
+| **boolean*** | ~1 byte*     | 8 bits*     | `boolean h = true;`   |
+
+=-2^(n-1) to 2^(n-1)-1 formula for Range calculation 
+n = number of bit
+
+
+
+
