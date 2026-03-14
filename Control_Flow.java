@@ -71,5 +71,6 @@ public class Control_Flow{
             System.out.print(k + " ");
             k++;
         } while(k <= 5);     
+        sc.close();
     }
 }
