@@ -215,3 +215,181 @@ Write Code → Compile → Run
 * Data types
 * Range formula
 * Basic program
+
+
+
+---
+
+# 🧠 Object-Oriented Programming (OOP) Concepts in Java
+
+Object-Oriented Programming (OOP) is a programming paradigm that organizes software design around **objects and classes**.
+
+---
+
+## 📌 Main OOP Concepts
+
+| Concept       | Description                                                       |
+| ------------- | ----------------------------------------------------------------- |
+| Encapsulation | Wrapping data and methods into a single unit                      |
+| Inheritance   | One class acquiring properties of another class                   |
+| Polymorphism  | One method behaving in multiple ways                              |
+| Abstraction   | Hiding implementation details and showing only essential features |
+
+---
+
+# 1️⃣ Encapsulation
+
+Encapsulation means **hiding data and allowing access through methods**.
+
+## Example
+
+```java
+class Student {
+
+    private String name;
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+
+        Student s = new Student();
+        s.setName("Sanmark");
+
+        System.out.println(s.getName());
+    }
+}
+```
+
+### Key Points
+
+* Variables are **private**
+* Access through **getter and setter methods**
+* Provides **data security**
+
+---
+
+# 2️⃣ Inheritance
+
+Inheritance allows a class to **reuse properties and methods of another class**.
+
+## Example
+
+```java
+class Animal {
+    void eat() {
+        System.out.println("Animal is eating");
+    }
+}
+
+class Dog extends Animal {
+    void bark() {
+        System.out.println("Dog is barking");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+
+        Dog d = new Dog();
+        d.eat();
+        d.bark();
+    }
+}
+```
+
+### Key Points
+
+* Uses **extends keyword**
+* Promotes **code reusability**
+* Supports **hierarchical relationships**
+
+---
+
+# 3️⃣ Polymorphism
+
+Polymorphism means **one method with different behaviors**.
+
+## Example (Method Overloading)
+
+```java
+class Calculator {
+
+    int add(int a, int b) {
+        return a + b;
+    }
+
+    int add(int a, int b, int c) {
+        return a + b + c;
+    }
+}
+```
+
+### Key Points
+
+* Same method name
+* Different parameters
+* Improves **flexibility**
+
+---
+
+# 4️⃣ Abstraction
+
+Abstraction hides **implementation details** and shows only **essential functionality**.
+
+## Example
+
+```java
+abstract class Vehicle {
+
+    abstract void start();
+}
+
+class Car extends Vehicle {
+
+    void start() {
+        System.out.println("Car starts with key");
+    }
+}
+```
+
+### Key Points
+
+* Achieved using **abstract classes or interfaces**
+* Reduces **complexity**
+* Improves **security**
+
+---
+
+# 📊 OOP Concept Relationship
+
+```
+OOP
+│
+├── Encapsulation → Data Hiding
+├── Inheritance → Code Reusability
+├── Polymorphism → Multiple Behaviors
+└── Abstraction → Hide Complexity
+```
+
+---
+
+# 🚀 Benefits of OOP
+
+* Reusable code
+* Easier maintenance
+* Better security
+* Modular programming
+* Scalable applications
+
+---
+
+
+
