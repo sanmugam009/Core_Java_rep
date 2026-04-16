@@ -390,6 +390,40 @@ OOP
 * Scalable applications
 
 ---
+# Class in Java
+Definition
 
+A class is a template or blueprint used to create objects. It defines how an object will look and behave.
+
+A class contains:
+
+Variables (Properties / Data Members) → used to store data
+Methods (Functions / Behaviors) → used to perform actions
+Real-World Example
+
+Think of a Car as a class 🚗
+
+Properties (What it has)
+Color
+Brand
+Type
+
+👉 These are variables (data storage)
+
+Actions (What it does)
+start()
+brake()
+accelerate()
+
+👉 These are methods (perform actions)
+
+Simple Understanding
+Concept	Meaning
+Properties	What an object has
+Actions	What an object does
+Quick Summary
+A class = blueprint
+Properties = variables (has)
+Actions = methods (does)
 
 
