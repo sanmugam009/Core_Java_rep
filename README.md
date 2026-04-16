@@ -390,40 +390,82 @@ OOP
 * Scalable applications
 
 ---
-# Class in Java
-Definition
+# 📘 Class in Java
 
-A class is a template or blueprint used to create objects. It defines how an object will look and behave.
+## 🧾 Definition
+A **class** is a template or blueprint used to create objects. It defines how an object will look and behave.
+
+---
+
+## 🏗️ Components of a Class
 
 A class contains:
 
-Variables (Properties / Data Members) → used to store data
-Methods (Functions / Behaviors) → used to perform actions
-Real-World Example
+- **Variables (Properties / Data Members)**  
+  → Used to store data  
 
-Think of a Car as a class 🚗
+- **Methods (Functions / Behaviors)**  
+  → Used to perform actions  
 
-Properties (What it has)
-Color
-Brand
-Type
+---
 
-👉 These are variables (data storage)
+## 🚗 Real-World Example: Car
 
-Actions (What it does)
-start()
-brake()
-accelerate()
+Think of a **Car** as a class.
 
-👉 These are methods (perform actions)
+### 🧩 Properties (What it *has*)
+- Color  
+- Brand  
+- Type  
 
-Simple Understanding
-Concept	Meaning
-Properties	What an object has
-Actions	What an object does
-Quick Summary
-A class = blueprint
-Properties = variables (has)
-Actions = methods (does)
+> 👉 These are **variables** (data storage)
+
+### ⚙️ Actions (What it *does*)
+- `start()`  
+- `brake()`  
+- `accelerate()`  
+
+> 👉 These are **methods** (perform actions)
+
+---
+
+## 🧠 Simple Understanding
+
+| Concept    | Meaning               |
+|------------|----------------------|
+| Properties | What an object *has* |
+| Actions    | What an object *does* |
+
+---
+
+## ⚡ Quick Summary
+
+- A **class = blueprint**  
+- **Properties = variables (has)**  
+- **Actions = methods (does)**  
+
+---
+
+## 💻 Example Code
+
+```java
+class Car {
+    String color;
+    String brand;
+    String type;
+
+    void start() {
+        System.out.println("Car is starting");
+    }
+
+    void brake() {
+        System.out.println("Car is stopping");
+    }
+
+    void accelerate() {
+        System.out.println("Car is accelerating");
+    }
+}
+```
 
 
